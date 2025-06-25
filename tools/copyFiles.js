@@ -4,23 +4,15 @@ import path from "path";
 
 // === CONFIGURATION ===
 const sourceBase = "C:/Users/brody/Desktop/urban-resource-map-admin";
-const targetBase = "C:/Users/brody/Desktop/urban-resource-map-dev";
+const targetBase = "C:/Users/brody/Desktop/urban-resource-map-client";
 
 const filesToUpdate = [
   "server.js",
-  "src/db.js",
-  "src/routes/locations.js",
-  "src/routes/projectSchema.js",
-  "src/App.jsx",
+  "db.js",
+  "routes/projectSchema.js",
   "src/components/FilterPanel.jsx",
   "src/pages/Home.jsx",
-  "src/pages/Editor.jsx",
-  "src/pages/Analysis.jsx",
-  "src/components/AddLocationModal.jsx",
-  "src/components/EditLocation.jsx",
-  "src/components/EditScoreModal.jsx",
   "src/utils/schemaFetcher.js",
-  "src/utils/locationHelpers.js",
 ];
 
 // === SYNC FUNCTION ===
